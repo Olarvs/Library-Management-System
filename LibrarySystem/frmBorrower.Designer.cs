@@ -256,6 +256,7 @@
             // 
             // PictureBox1
             // 
+            this.PictureBox1.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PictureBox1.Location = new System.Drawing.Point(388, 17);
@@ -337,7 +338,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.BackColor = System.Drawing.Color.ForestGreen;
             this.ClientSize = new System.Drawing.Size(627, 468);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnClose);

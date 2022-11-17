@@ -95,7 +95,7 @@
             // 
             // TabPage5
             // 
-            this.TabPage5.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.TabPage5.BackColor = System.Drawing.Color.ForestGreen;
             this.TabPage5.Controls.Add(this.GroupBox3);
             this.TabPage5.Controls.Add(this.grp_Rgroup);
             this.TabPage5.Controls.Add(this.btnClose);
@@ -146,7 +146,7 @@
             this.dtg_RlistReturn.AllowUserToResizeColumns = false;
             this.dtg_RlistReturn.AllowUserToResizeRows = false;
             this.dtg_RlistReturn.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
-            this.dtg_RlistReturn.BackgroundColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.dtg_RlistReturn.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
             this.dtg_RlistReturn.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtg_RlistReturn.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dtg_RlistReturn.GridColor = System.Drawing.SystemColors.GradientActiveCaption;

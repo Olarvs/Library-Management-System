@@ -39,13 +39,15 @@
             this.ts_users = new System.Windows.Forms.ToolStripButton();
             this.ts_login = new System.Windows.Forms.ToolStripButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // toolStrip1
             // 
-            this.toolStrip1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.toolStrip1.BackColor = System.Drawing.Color.ForestGreen;
             this.toolStrip1.Dock = System.Windows.Forms.DockStyle.Left;
             this.toolStrip1.Font = new System.Drawing.Font("Myanmar Text", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolStrip1.ImageScalingSize = new System.Drawing.Size(40, 50);
@@ -58,7 +60,7 @@
             this.ts_login});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(111, 535);
+            this.toolStrip1.Size = new System.Drawing.Size(111, 497);
             this.toolStrip1.Stretch = true;
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
@@ -66,7 +68,9 @@
             // 
             // ts_books
             // 
+            this.ts_books.BackColor = System.Drawing.Color.ForestGreen;
             this.ts_books.Font = new System.Drawing.Font("Myanmar Text", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ts_books.ForeColor = System.Drawing.Color.Goldenrod;
             this.ts_books.Image = ((System.Drawing.Image)(resources.GetObject("ts_books.Image")));
             this.ts_books.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.ts_books.Name = "ts_books";
@@ -77,9 +81,11 @@
             // 
             // ts_transaction
             // 
+            this.ts_transaction.BackColor = System.Drawing.Color.ForestGreen;
             this.ts_transaction.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ts_BorrowItem,
             this.ts_returnItem});
+            this.ts_transaction.ForeColor = System.Drawing.Color.Goldenrod;
             this.ts_transaction.Image = ((System.Drawing.Image)(resources.GetObject("ts_transaction.Image")));
             this.ts_transaction.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.ts_transaction.Name = "ts_transaction";
@@ -103,6 +109,8 @@
             // 
             // ts_borrower
             // 
+            this.ts_borrower.BackColor = System.Drawing.Color.ForestGreen;
+            this.ts_borrower.ForeColor = System.Drawing.Color.Goldenrod;
             this.ts_borrower.Image = ((System.Drawing.Image)(resources.GetObject("ts_borrower.Image")));
             this.ts_borrower.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.ts_borrower.Name = "ts_borrower";
@@ -113,6 +121,8 @@
             // 
             // ts_categories
             // 
+            this.ts_categories.BackColor = System.Drawing.Color.ForestGreen;
+            this.ts_categories.ForeColor = System.Drawing.Color.Goldenrod;
             this.ts_categories.Image = ((System.Drawing.Image)(resources.GetObject("ts_categories.Image")));
             this.ts_categories.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.ts_categories.Name = "ts_categories";
@@ -123,6 +133,8 @@
             // 
             // ts_users
             // 
+            this.ts_users.BackColor = System.Drawing.Color.ForestGreen;
+            this.ts_users.ForeColor = System.Drawing.Color.Goldenrod;
             this.ts_users.Image = ((System.Drawing.Image)(resources.GetObject("ts_users.Image")));
             this.ts_users.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.ts_users.Name = "ts_users";
@@ -133,10 +145,11 @@
             // 
             // ts_login
             // 
+            this.ts_login.BackColor = System.Drawing.Color.ForestGreen;
             this.ts_login.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ts_login.CheckOnClick = true;
             this.ts_login.DoubleClickEnabled = true;
-            this.ts_login.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.ts_login.ForeColor = System.Drawing.Color.Goldenrod;
             this.ts_login.Image = global::LibrarySystem.Properties.Resources._login;
             this.ts_login.ImageTransparentColor = System.Drawing.Color.White;
             this.ts_login.Name = "ts_login";
@@ -149,23 +162,51 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.pictureBox1.BackColor = System.Drawing.Color.White;
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(111, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(964, 535);
+            this.pictureBox1.Size = new System.Drawing.Size(935, 497);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.ForestGreen;
+            this.label1.Font = new System.Drawing.Font("Microsoft Tai Le", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Goldenrod;
+            this.label1.Location = new System.Drawing.Point(158, 203);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(308, 34);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Cavite State University";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.ForestGreen;
+            this.label2.Font = new System.Drawing.Font("Microsoft Tai Le", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Goldenrod;
+            this.label2.Location = new System.Drawing.Point(208, 237);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(196, 34);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Online Library";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1075, 535);
+            this.BackColor = System.Drawing.Color.ForestGreen;
+            this.ClientSize = new System.Drawing.Size(1046, 497);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.toolStrip1);
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
@@ -196,6 +237,8 @@
         private System.Windows.Forms.ToolStripButton ts_users;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.ToolStripButton ts_login;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
 

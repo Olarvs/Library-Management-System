@@ -55,7 +55,7 @@
             this.dtg_listUser.AllowUserToResizeColumns = false;
             this.dtg_listUser.AllowUserToResizeRows = false;
             this.dtg_listUser.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dtg_listUser.BackgroundColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.dtg_listUser.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
             this.dtg_listUser.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtg_listUser.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dtg_listUser.Location = new System.Drawing.Point(12, 135);
@@ -249,7 +249,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.BackColor = System.Drawing.Color.ForestGreen;
             this.ClientSize = new System.Drawing.Size(530, 484);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.dtg_listUser);

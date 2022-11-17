@@ -87,7 +87,7 @@
             // 
             // TabPage3
             // 
-            this.TabPage3.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.TabPage3.BackColor = System.Drawing.Color.ForestGreen;
             this.TabPage3.Controls.Add(this.btnClose);
             this.TabPage3.Controls.Add(this.btnNew);
             this.TabPage3.Controls.Add(this.btn_Bsave);

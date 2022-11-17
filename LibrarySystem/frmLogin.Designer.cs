@@ -41,12 +41,12 @@
             // 
             // UsernameLabel
             // 
-            this.UsernameLabel.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UsernameLabel.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UsernameLabel.Location = new System.Drawing.Point(95, 9);
             this.UsernameLabel.Name = "UsernameLabel";
             this.UsernameLabel.Size = new System.Drawing.Size(219, 23);
             this.UsernameLabel.TabIndex = 6;
-            this.UsernameLabel.Text = "&UserName:";
+            this.UsernameLabel.Text = "Username";
             this.UsernameLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // LogoPictureBox
@@ -61,12 +61,12 @@
             // 
             // PasswordLabel
             // 
-            this.PasswordLabel.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PasswordLabel.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PasswordLabel.Location = new System.Drawing.Point(95, 58);
             this.PasswordLabel.Name = "PasswordLabel";
             this.PasswordLabel.Size = new System.Drawing.Size(219, 23);
             this.PasswordLabel.TabIndex = 9;
-            this.PasswordLabel.Text = "&Password:";
+            this.PasswordLabel.Text = "Password";
             this.PasswordLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // UsernameTextBox
@@ -80,27 +80,32 @@
             // 
             // OK
             // 
+            this.OK.BackColor = System.Drawing.Color.DarkGreen;
             this.OK.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.OK.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.OK.Font = new System.Drawing.Font("Modern No. 20", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.OK.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.OK.Font = new System.Drawing.Font("Microsoft Yi Baiti", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.OK.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.OK.Location = new System.Drawing.Point(37, 116);
             this.OK.Name = "OK";
             this.OK.Size = new System.Drawing.Size(113, 34);
             this.OK.TabIndex = 11;
-            this.OK.Text = "OK";
+            this.OK.Text = "Login";
+            this.OK.UseVisualStyleBackColor = false;
             this.OK.Click += new System.EventHandler(this.OK_Click);
             // 
             // Cancel
             // 
+            this.Cancel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.Cancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.Cancel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Cancel.Font = new System.Drawing.Font("Modern No. 20", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Cancel.Font = new System.Drawing.Font("Microsoft Yi Baiti", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Cancel.ForeColor = System.Drawing.Color.Black;
             this.Cancel.Location = new System.Drawing.Point(195, 116);
             this.Cancel.Name = "Cancel";
             this.Cancel.Size = new System.Drawing.Size(102, 34);
             this.Cancel.TabIndex = 12;
-            this.Cancel.Text = "&CANCEL";
+            this.Cancel.Text = "Cancel";
+            this.Cancel.UseVisualStyleBackColor = false;
             this.Cancel.Click += new System.EventHandler(this.Cancel_Click);
             // 
             // PasswordTextBox
@@ -117,7 +122,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.BackColor = System.Drawing.Color.ForestGreen;
             this.ClientSize = new System.Drawing.Size(322, 157);
             this.Controls.Add(this.Cancel);
             this.Controls.Add(this.OK);
